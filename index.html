@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <ul>
+        <li>
+          <label for="name">Full Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="Full_Name"
+            placeholder="Enter surname first"
+            required
+          />
+        </li>
+        <li>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="Email" required />
+        </li>
+        <li>
+          <label for="number">Number: </label>
+          <input type="number" id="num" name="num" min="4" maxlength="10" />
+        </li>
+        <li>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" />
+        </li>
+        <li>
+          <label for="one">One </label>
+          <input type="checkbox" id="one" name="one" />
+        </li>
+        <li>
+          <label for="on">Two </label>
+          <input type="checkbox" id="on" name="on" />
+        </li>
+        <li>
+          <label for="radio">One</label>
+          <input type="radio" id="radio" name="rad" />
+        </li>
+        <li>
+          <label for="rad">Two</label>
+          <input type="radio" id="rad" name="rad" />
+        </li>
+        <li>
+          <label for="radi">Three</label>
+          <input type="radio" id="radi" name="rad" />
+        </li>
+        <li>
+          <select name="select" id="select">
+            <option value="One">One</option>
+            <option value="Two">Two</option>
+          </select>
+        </li>
+        <li>
+          <label for="dropdown">Pick Options</label>
+          <input type="text" list="dropdown" />
+          <datalist id="dropdown">
+            <option value="Primary"></option>
+            <option value="Secondary"></option>
+          </datalist>
+        </li>
+        <li>
+          <span>Type You info Here</span><br />
+          <textarea name="text" id="text" cols="30" rows="10"></textarea>
+        </li>
+        <li>
+          <input type="date" />
+        </li>
+        <li>
+          <input type="datetime-local" />
+        </li>
+        <li>
+          <input type="color" />
+        </li>
+        <li>
+          <label for="search">Search</label>
+          <input type="search" id="search" />
+        </li>
+        <li>
+          <input type="file" />
+        </li>
+        <li>
+          <input type="submit" id="submit" value="SignUp" />
+          <input type="reset" id="reset" />
+        </li>
+      </ul>
+    </form>
+
+    <video src="/videos/mov_bbb.mp4" controls></video>
+    <script src="/scripts/script.js"></script>
+  </body>
+</html>
