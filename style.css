@@ -106,3 +106,13 @@ body {
   right: -4.2rem;
   width: 16rem;
 }
+@media (max-width: 30em) {
+  .perfume {
+    flex-direction: column;
+  }
+  .perfume img {
+    max-width: 100%;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+  }
+}
